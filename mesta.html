@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Моя WEB-страница</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Это мои любимые места</h1>
+  </header>
+
+  <nav class="sidebar">
+    <ul>
+      <li><a href="index.html">О себе</a></li>
+      <li><a href="books.html">Любимые книги</a></li>
+    </ul>
+  </nav>
+
+  <section id="hobby">
+    <h2>Мои любимые места</h2>
+    <ul>
+      <li><a href="https://yandex.ru/maps/-/CHfqBA7~">ВДНХ </a><br></li>
+      <img src="pic/2.webp" alt="ВДНХ" class="float-left">
+      <div class="interact">
+        <button onclick="like()">Лайк</button>
+        <span id="likes">0</span> лайков
+        <br></br>
+
+      <li><a href="https://yandex.ru/maps/-/CHfqBUic">Царицыно </a><br></li>
+      <img src="pic/3.webp" alt="Царицыно" class="float-left">
+      <div class="interact">
+        <button onclick="like()">Лайк</button>
+        <span id="likes">0</span> лайков
+        <br></br>
+
+      <li><a href="https://yandex.ru/maps/-/CHfqBBZV">Новый Арбат </a><br></li>
+      <img src="pic/4.webp" alt="Новый Арбат" class="float-left">
+      <div class="interact">
+        <button onclick="like()">Лайк</button>
+        <span id="likes">0</span> лайков
+        <br></br>
+        
+    </ul>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
